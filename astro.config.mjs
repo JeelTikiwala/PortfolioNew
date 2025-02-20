@@ -8,7 +8,7 @@ import node from "@astrojs/node";
 export default defineConfig({
   output: 'static',
   site: 'https://jeeltikiwala.github.io',
-  base: '/PortfolioNew/',
+  base: '/PortfolioNew',
   integrations: [tailwind(), icon()],
   output: "server",
   adapter: node({
