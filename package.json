@@ -7,9 +7,7 @@
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
-    "astro": "astro",
-    "deploy": "npm run build && gh-pages -d dist"
-    
+    "astro": "astro"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
@@ -25,7 +23,6 @@
   },
   "devDependencies": {
     "@iconify-json/mdi": "^1.1.64",
-    "@tailwindcss/typography": "^0.5.12",
-    "gh-pages": "^6.3.0"
+    "@tailwindcss/typography": "^0.5.12"
   }
 }

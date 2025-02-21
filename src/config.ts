@@ -1,5 +1,3 @@
-// Jeel tikiwala
-
 import type {
   NavBarLink,
   SocialLink,
