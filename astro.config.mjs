@@ -7,7 +7,8 @@ import node from "@astrojs/node";
 // https://astro.build/config
 export default defineConfig({
   output: 'static',
-  site: 'https://jeeltikiwala.github.io',
+  // site: 'https://jeeltikiwala.github.io',
+  site: '',
   base: '/PortfolioNew/',
   integrations: [tailwind(), icon()],
   output: "server",
