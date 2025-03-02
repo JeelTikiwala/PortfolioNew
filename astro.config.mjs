@@ -7,15 +7,10 @@ import netlify from '@astrojs/netlify';
 
 // https://astro.build/config
 export default defineConfig({
-  output: 'server',
-  adapter: netlify(),
-  site: 'https://jeeltikiwala.github.io/',
-  base: '/PortfolioNew/',
+  output: "static", // ✅ Required for GitHub Pages
+  base: "/PortfolioNew", // ✅ Must match your GitHub repo name
+  site: "https://jeeltikiwala.github.io/PortfolioNew", // ✅ Your GitHub Pages URL
   integrations: [tailwind(), icon()],
-  output: "server",
-  adapter: node({
-    mode: "standalone",
-  }),
   markdown: {
     remarkPlugins: [remarkReadingTime],
   },
