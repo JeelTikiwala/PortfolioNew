@@ -10,7 +10,7 @@ export default defineConfig({
   output: 'server',
   adapter: netlify(),
   site: 'https://jeeltikiwala.github.io/',
-  // base: '/PortfolioNew',
+  base: '/PortfolioNew/',
   integrations: [tailwind(), icon()],
   output: "server",
   adapter: node({
