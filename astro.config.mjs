@@ -9,8 +9,8 @@ import netlify from '@astrojs/netlify';
 export default defineConfig({
   output: 'server',
   adapter: netlify(),
-  site: 'https://jeeltikiwala.github.io',
-  base: '/PortfolioNew',
+  site: 'https://jeeltikiwala.github.io/',
+  // base: '/PortfolioNew',
   integrations: [tailwind(), icon()],
   output: "server",
   adapter: node({
