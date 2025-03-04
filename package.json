@@ -13,6 +13,7 @@
     "@astrojs/check": "^0.9.4",
     "@astrojs/netlify": "^6.2.0",
     "@astrojs/node": "^9.0.0",
+    "@astrojs/sitemap": "^3.2.1",
     "@astrojs/tailwind": "^5.1.4",
     "astro": "^5.1.7",
     "astro-icon": "^1.1.0",
